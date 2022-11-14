@@ -1,4 +1,3 @@
 class Username < ActiveRecord::Base
-    #  has_many :user
-   
+    has_many :todo_lists
 end
